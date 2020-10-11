@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html {
+  background: #2a2a2e;
+  color: #d4d5d7;
+  font-family: 'Inter', sans-serif;
+  scrollbar-color: #131c21 transparent;
+  scrollbar-width: thin;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #131c21;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #35363a;
+  box-shadow: 0 10px 20px 0 rgba(53, 54, 58, .19), 0 5px 9px 0 rgba(53, 54, 58, .24);
+  border-bottom: 1px solid #f1f1f21c;
+}
+
+.menu {
+  padding-right: 0 !important;
+}
+
+.menu .button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #131c21;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: scale(0);
+  pointer-events: none;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  box-shadow: 0 10px 20px 0 rgba(19, 28, 33, .19), 0 5px 9px 0 rgba(19, 28, 33, .24);
+  opacity: 0;
+  display: grid;
+  place-content: center;
+}
+
+.menu.open .button {
+  pointer-events: auto;
+  opacity: 1;
+  transform: none;
+}
+.menu.open .button:first-of-type {
+  top: 65px;
+}
+.menu.open .button:nth-of-type(2) {
+  top: 126px;
+  transition-delay: .05s;
+}
+.menu.open .button:last-of-type {
+  top: 189px;
+  transition-delay: .1s;
+}
+
+.menu .button:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  font-size: 20px;
+  padding: 16px 16px 16px 0;
+  color: #00af9c;
+}
+
+.logo span {
+  outline: none;
+}
+
+.logo span:empty::before {
+  content: ' ';
+}
+
+.logo svg {
+  cursor: pointer;
+  color: #666;
+  margin-left: -2px;
+  margin-bottom: -2px;
+}
+
+.logo:hover svg {
+  animation: .5s edit;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 11px 11px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+/*.option:hover {
+  background: #f1f1f20d;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+}*/
+
+.play label {
+  display: block;
+  position: relative;
+  width: 30px;
+  cursor: pointer;
+}
+
+.play span::before {
+  position: absolute;
+  top: -9px;
+  left: 9px;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-color: currentColor;
+  border-width: 9px 0 9px 15px;
+  transition: .2s ease;
+  content: '';
+}
+
+.play span::after {
+  position: absolute;
+  top: -14px;
+  left: 15px;
+  height: 30px;
+  border-left: 0 solid #35363a;
+  transition: .2s ease;
+  content: '';
+}
+
+.play.playing span::before {
+  height: 19px;
+  border-width: 0 0 0 15px;
+}
+
+.play.playing span::after {
+  left: 13.5px;
+  border-width: 6px;
+}
+
+/*.play:hover span::after {
+  border-color: #3e3f43;
+}*/
+
+.sidebar {
+  background: #35363a;
+  box-shadow: -10px 0 20px 0 rgba(53, 54, 58, .19), -10px 0 9px 0 rgba(53, 54, 58, .24);
+  position: fixed;
+  right: 0;
+  top: 56px;
+  /*height: calc(100% - 106px);*/
+  height: calc(100% - 56px);
+  border-left: 1px solid #f1f1f21c;
+  overflow: auto;
+  /*padding-bottom: 50px;*/
+  transition: .2s ease;
+}
+
+.sidebar::before {
+  display: block;
+  height: 10px;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(#35363a, transparent);
+  margin-bottom: -16px;
+  content: '';
+}
+
+/*.settings {
+  display: grid;
+  place-content: center;
+  background: linear-gradient(0, #35363a 70%, transparent);
+  position: fixed;
+  bottom: 0;
+  width: 110px;
+  padding-top: 17px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.settings svg {
+  transition: .2s ease;
+}
+
+.settings.open svg {
+  transform: rotate(30deg);
+}*/
+
+.frame {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #323739;
+  box-shadow: 3px 5px 20px -5px #131c21;
+  height: 80px;
+  width: 80px;
+  margin: 16px 13px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.frame.open {
+  border-color: #00af9c;
+}
+
+.frame-wrapper {
+  background: #131c21;
+  position: relative;
+  height: 100%;
+  z-index: -1;
+  transition: .2s ease;
+}
+
+.frame.open .frame-wrapper {
+  background: #090e11f5;
+}
+
+.frame-el {
+  background: #3b4042;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.canvas {
+  position: fixed;
+  width: calc(100vw - 109px);
+  height: calc(100vh - 57px);
+  top: 57px;
+  left: 0;
+  background: #2a2a2e;
+  z-index: -1;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.el {
+  width: 100px;
+  height: 100px;
+  background: #3b4042;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: grab;
+}
+
+.el:active {
+  cursor: grabbing;
+}
+
+.el.playing {
+  transition: .25s linear !important;
+}
+
+.prompt-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  transition: .2s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.prompt-wrapper .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #090e11b3;
+  z-index: -1;
+}
+
+.prompt {
+  background: #3b4042;
+  border-radius: 3px;
+  padding: 22px 24px 20px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: auto;
+  box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
+  transform: scale(0.9);
+  transition: .2s ease;
+}
+
+.prompt .title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prompt p {
+  margin: 0;
+}
+
+.prompt .close {
+  cursor: pointer;
+}
+
+.prompt a {
+  font-size: 14.2px;
+  line-height: 20px;
+  white-space: break-spaces;
+  overflow-wrap: break-word;
+}
+
+.prompt span {
+  color: #f1f1f2a1;
+  font-size: 14px;
+}
+
+.prompt .code {
+  font-family: monospace;
+  padding: 10px;
+  background: #131c21;
+  border-radius: 3px;
+  margin: 10px 0;
+  white-space: break-spaces;
+  overflow-wrap: break-word;
+  position: relative;
+}
+
+.prompt .code .copy {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+  color: #00af9c;
+  transition: .2s ease;
+}
+
+.prompt .name {
+  color: white;
+  font-size: inherit;
+}
+
+.prompt-wrapper.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.prompt-wrapper.open .prompt {
+  transform: none;
+}
+
+@keyframes edit {
+  25% {
+    transform: rotate(15deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+}
