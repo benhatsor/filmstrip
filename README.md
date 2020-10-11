@@ -1,2 +1,2 @@
 # Filmstrip
-Quick and easy animation for the web.
+Quick and easy animator for the modern web.
