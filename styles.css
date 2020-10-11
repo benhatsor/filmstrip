@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html {
   background: #2a2a2e;
@@ -344,7 +345,8 @@ body {
 }
 
 .prompt .code {
-  font-family: monospace;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px !important;
   padding: 10px;
   background: #131c21;
   border-radius: 3px;
