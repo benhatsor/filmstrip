@@ -161,6 +161,7 @@ function playFrame() {
 function exportAnimation() {
 	var out = `.el {
   animation: `+settings.name.replaceAll(' ', '-')+` `+settings.delay * x.length+`s linear forwards;
+  position: absolute;
 }
   
 @keyframes `+settings.name.replaceAll(' ', '-')+` {`;
