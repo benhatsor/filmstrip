@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="500" src="scrn1.png">
+</p>
 <h1 align="center">Filmstrip</h1>
 <p align="center">
   <h3 align="center">  
