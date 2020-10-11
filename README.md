@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" src="scrn1.png">
+  <img width="500" src="screenshots/scrn1.png">
 </p>
 <h1 align="center"><img src="icon.svg" height="30" width="30">Filmstrip</h1>
 <p align="center">
@@ -23,7 +23,7 @@ Furthermore, you can place the exported animation **anywhere** and add on to **a
 :pencil2: [Try it out](https://filmstrip.netlify.app/)
 
 <p align="center">
-  <img width="600" src="scrn2.png">
+  <img width="600" src="screenshots/scrn2.png">
 </p>
 
 Creating new keyframes is easy. Just drag from one point to another.
