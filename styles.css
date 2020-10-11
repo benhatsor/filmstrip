@@ -304,7 +304,7 @@ body {
 .prompt {
   height: calc(100vh - 40px);
   background: #3b4042;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 22px 24px 20px;
   display: flex;
   flex: none;
