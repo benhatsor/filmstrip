@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+::selection {
+  background: #ffffff24;
+}
+
 ::-webkit-scrollbar {
   background: transparent;
 }
