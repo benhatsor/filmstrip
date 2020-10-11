@@ -12,7 +12,7 @@
   <a href="https://travis-ci.com/barhatsor/filmstrip"><img src="https://travis-ci.com/barhatsor/filmstrip.svg?branch=master" alt="travis ci"></a>
 </p>
 
-## Did you know that you can create animation using CSS?
+## Did you know that you can create animation using just CSS?
 
 **Filmstrip** is an online editor that helps you with that task.
 
@@ -21,6 +21,10 @@ Combining the power of both **positioning** and **keyframes** CSS properties, yo
 Furthermore, you can place the exported animation **anywhere** and add on to **any element**.
 
 :pencil2: [Try it out](https://filmstrip.netlify.app/)
+
+<p align="center">
+  <img width="600" src="scrn2.png">
+</p>
 
 Creating new keyframes is easy. Just drag from one point to another.
 
