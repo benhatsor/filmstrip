@@ -8,8 +8,8 @@
   </h3>
 </p>
 <p align="center">
+  <a target='_blank' href='./releases'><img src='https://img.shields.io/github/v/release/barhatsor/filmstrip?include_prereleases'/></a>
   <a target='_blank' href='./LICENSE'><img src='https://img.shields.io/badge/license-MIT-blue.svg'/></a>
-  <a href="https://travis-ci.com/barhatsor/filmstrip"><img src="https://travis-ci.com/barhatsor/filmstrip.svg?branch=master" alt="travis ci"></a>
 </p>
 
 ## Did you know that you can create animation using just CSS?
@@ -28,7 +28,7 @@ Furthermore, you can place the exported animation **anywhere** and add on to **a
 
 Creating new keyframes is easy. Just drag from one point to another.
 
-## Built by hand with :heart:
+## Built with :heart:
 - No external libraries or technolgies.
 
 ## Contributing
