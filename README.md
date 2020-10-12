@@ -12,6 +12,10 @@
   <a target='_blank' href='https://github.com/barhatsor/filmstrip/releases'><img src='https://img.shields.io/github/v/release/barhatsor/filmstrip?color=green&include_prereleases'/></a>
 </p>
 
+<h2 align="center">
+  :pencil2: <a href="https://filmstrip.netlify.app/" style="color:#2ea44f">Try it out</a>
+</h2>
+
 ## Did you know that you can create animation using just CSS?
 
 **Filmstrip** is an online editor that helps you with that task.
@@ -19,8 +23,6 @@
 Combining the power of both **positioning** and **keyframes** CSS properties, you will get CSS code ready to use in your site.
 
 Furthermore, you can place the exported animation **anywhere** and add on to **any element**.
-
-:pencil2: [Try it out](https://filmstrip.netlify.app/)
 
 <p align="center">
   <img width="600" src="screenshots/scrn2.png">
