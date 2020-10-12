@@ -13,7 +13,7 @@
 </p>
 
 <h2 align="center">
-  :pencil2: <a href="https://filmstrip.netlify.app/" style="color:#2ea44f">Try it out</a>
+  <a href="https://filmstrip.netlify.app/"><img width="150" src="screenshots/green-button.png"></a>
 </h2>
 
 ## Did you know that you can create animation using just CSS?
