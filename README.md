@@ -8,7 +8,7 @@
   </h3>
 </p>
 <p align="center">
-  <a target='_blank' href='./releases'><img src='https://img.shields.io/github/v/release/barhatsor/filmstrip?include_prereleases'/></a>
+  <a target='_blank' href='https://github.com/barhatsor/filmstrip/releases'><img src='https://img.shields.io/github/v/release/barhatsor/filmstrip?color=yes&include_prereleases'/></a>
   <a target='_blank' href='./LICENSE'><img src='https://img.shields.io/badge/license-MIT-blue.svg'/></a>
 </p>
 
