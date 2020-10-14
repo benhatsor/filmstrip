@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="https://filmstrip.netlify.app/"><img width="130" src="screenshots/green-button.png"></a>
+  <a href="https://filmstrip.netlify.app/"><img width="130" src="images/green-button.png"></a>
 </p>
 
 <p align="center">
-  <img width="400" src="screenshots/scrn1.png">
+  <img width="400" src="images/scrn1.png">
 </p>
 
 ## Did you know that you can create animation using just CSS?
@@ -26,7 +26,7 @@ Combining the power of both **positioning** and **keyframes** CSS properties, yo
 Furthermore, you can place the exported animation **anywhere** and add on to **any element**.
 
 <p align="center">
-  <img width="600" src="screenshots/scrn2.png">
+  <img width="600" src="images/scrn2.png">
 </p>
 
 Creating new keyframes is easy. Just drag from one point to another.
