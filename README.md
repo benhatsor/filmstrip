@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="500" src="screenshots/scrn1.png">
-</p>
 <h1 align="center"><img src="icon.svg" height="30" width="30">Filmstrip</h1>
 <p align="center">
   <h3 align="center">  
