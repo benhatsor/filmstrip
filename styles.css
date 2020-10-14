@@ -112,16 +112,16 @@ body {
   transition: .2s opacity;
 }
 
+.main .upload-wrapper.hidden {
+  top: -125px;
+}
+
 .main .title-wrapper.hidden, .main .upload-wrapper.hidden {
   top: 156px;
   position: relative;
   margin: -100%;
   opacity: 0;
   pointer-events: none;
-}
-
-.upload-wrapper.hidden {
-  top: -125px;
 }
 
 .main .code {
