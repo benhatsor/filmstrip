@@ -582,6 +582,40 @@ body {
   transform: none;
 }
 
+.github {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100vw;
+  height: 30px;
+  display: grid;
+  place-content: center;
+  pointer-events: none;
+}
+
+.github .inner {
+  pointer-events: all;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 8px;
+  border: 1px solid #f1f1f25c;
+  transition: .2s ease;
+  text-decoration: none;
+  color: #d4d5d7;
+}
+
+.github .inner:hover {
+  background: #f1f1f20f;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.github .octicon {
+  margin-right: 9px;
+}
+
 @keyframes edit {
   25% {
     transform: rotate(15deg);
