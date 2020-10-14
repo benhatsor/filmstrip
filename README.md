@@ -12,9 +12,9 @@
   <a target='_blank' href='./LICENSE'><img src='https://img.shields.io/badge/license-MIT-blue.svg'/></a>
 </p>
 
-<h2 align="center">
-  <a href="https://filmstrip.netlify.app/"><img width="150" src="screenshots/green-button.png"></a>
-</h2>
+<p align="center">
+  <a href="https://filmstrip.netlify.app/"><img width="130" src="screenshots/green-button.png"></a>
+</p>
 
 ## Did you know that you can create animation using just CSS?
 
