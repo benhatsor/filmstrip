@@ -596,7 +596,7 @@ body {
 .github .inner {
   pointer-events: all;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   border-radius: 5px;
