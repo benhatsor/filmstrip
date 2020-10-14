@@ -109,14 +109,19 @@ body {
 .main .title-wrapper, .main .upload-wrapper {
   display: grid;
   place-content: center;
-  transition: 0s .1s margin, .1s .1s opacity;
+  transition: .2s opacity;
 }
 
 .main .title-wrapper.hidden, .main .upload-wrapper.hidden {
+  top: 156px;
+  position: relative;
   margin: -100%;
   opacity: 0;
   pointer-events: none;
-  transition: .1s opacity, .1s 0s margin;
+}
+
+.upload-wrapper.hidden {
+  top: -125px;
 }
 
 .main .code {
