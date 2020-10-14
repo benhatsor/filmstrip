@@ -121,7 +121,7 @@ body {
 }
 
 .main .upload-wrapper.hidden {
-  top: -125px;
+  top: -125px !important;
 }
 
 .main .code {
