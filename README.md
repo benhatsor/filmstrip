@@ -5,15 +5,16 @@
   </h3>
 </p>
 <p align="center">
-  <img width="500" src="screenshots/scrn1.png">
-</p>
-<p align="center">
   <a target='_blank' href='https://github.com/barhatsor/filmstrip/releases'><img src='https://img.shields.io/github/v/release/barhatsor/filmstrip?color=green&include_prereleases'/></a>
   <a target='_blank' href='./LICENSE'><img src='https://img.shields.io/badge/license-MIT-blue.svg'/></a>
 </p>
 
 <p align="center">
   <a href="https://filmstrip.netlify.app/"><img width="130" src="screenshots/green-button.png"></a>
+</p>
+
+<p align="center">
+  <img width="400" src="screenshots/scrn1.png">
 </p>
 
 ## Did you know that you can create animation using just CSS?
