@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://filmstrip.netlify.app/"><img width="130" src="images/green-button.png"></a>
+  <a href="https://filmstrip.berryscript.com"><img width="130" src="images/green-button.png"></a>
 </p>
 
 <p align="center">
