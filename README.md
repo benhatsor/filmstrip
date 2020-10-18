@@ -43,4 +43,4 @@ Please create a GitHub issue if there is something wrong or needs to be improved
 ## License
 
 [MIT](https://opensource.org/licenses/mit-license.php)
-Copyright © 2020 Bar Hatsor (<a href="https://codepen.io/barhatsor">@barhatsor</a>)
+Copyright © 2020 Bar Hatsor (<a href="https://www.berryscript.com">@barhatsor</a>)
