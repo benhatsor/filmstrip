@@ -107,7 +107,7 @@ function playFrame() {
 }
 
 function exportAnimation() {
-	var out = `.el {
+	var out = `.`+settings.name.replaceAll(' ', '-')+` {
   animation: `+settings.name.replaceAll(' ', '-')+` `+settings.delay * x.length+`s linear forwards;
   position: absolute;
 }
