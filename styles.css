@@ -239,6 +239,10 @@ body {
   margin-bottom: -2px;
 }
 
+.logo span:focus ~ svg {
+  display: none;
+}
+
 .logo:hover svg {
   animation: .5s edit;
 }
