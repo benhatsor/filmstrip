@@ -114,7 +114,7 @@ function exportAnimation() {
   
 @keyframes `+settings.name.replaceAll(' ', '-')+` {`;
   for (var i = 0; i < x.length; i++) {
-  var percent = x.length > 1 ? 100 / (x.length-1) * i + `%` : `to`;
+  var percent = x.length > 1 ? (Math.round((100 / (x.length-1) * i + Number.EPSILON) * 100) / 100) + `%` : `to`;
   out += `
   `+percent+` {
     top: `+y[i]+`px;
