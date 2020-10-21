@@ -43,7 +43,7 @@ Some stuff I want to add:
 - Settings! Customize animation duration and replay
 - Animate other properties! Such as height/width, color and more
 
-Just make a pull request if you feel like adding something from the list, or something else entirely :)
+Just make a pull request if you feel like adding something from the list, or something else entirely :)  
 Please create a GitHub issue if there is something wrong or needs to be improved.
 
 ## License
