@@ -606,9 +606,11 @@ body {
   border-radius: 5px;
   padding: 5px 8px;
   border: 1px solid #f1f1f25c;
+  border-color: #d4d4d4;
   transition: .2s ease;
   text-decoration: none;
   color: #d4d5d7;
+  position: relative;
 }
 
 .github .inner:hover {
@@ -618,6 +620,29 @@ body {
 
 .github .octicon {
   margin-right: 5px;
+}
+
+.count {
+  position: absolute;
+  right: -30px;
+  padding: 4px 3px;
+  border: 1px solid #f1f1f25c;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.count::before {
+  top: 50%;
+  left: -5px;
+  margin-top: -4px;
+  border: 4px solid #f1f1f25c;
+  border-left: 0;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  content: '';
 }
 
 @keyframes edit {
