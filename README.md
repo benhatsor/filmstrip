@@ -14,7 +14,8 @@
 </p>
 
 <p align="center">
-  <img width="400" src="images/scrn1.png">
+  <!-- <img width="400" src="images/scrn1.png"> -->
+  <img width="400" src="images/preview.gif">
 </p>
 
 ## Did you know that you can create animation using just CSS?
