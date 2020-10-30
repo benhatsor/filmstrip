@@ -20,6 +20,7 @@ body {
 
 ::-webkit-scrollbar {
   background: transparent;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -314,7 +315,7 @@ body {
   box-shadow: -10px 0 20px 0 rgba(53, 54, 58, .19), -10px 0 9px 0 rgba(53, 54, 58, .24);
   position: fixed;
   right: 0;
-  top: 56px;
+  top: 55.5px;
   /*height: calc(100% - 106px);*/
   height: calc(100% - 56px);
   border-left: 1px solid #f1f1f21c;
