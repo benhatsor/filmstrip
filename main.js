@@ -177,7 +177,7 @@ function importAnimation() {
   
   document.querySelectorAll('.frame').forEach(function(el, i) {
     el.addEventListener('click', e => {
-      openFrane(i);
+      openFrame(i);
     })
   })
   
