@@ -329,7 +329,7 @@ body {
   height: 10px;
   position: sticky;
   top: 0;
-  background: linear-gradient(#35363a, transparent);
+  background: linear-gradient(#35363a, #35363a00);
   margin-bottom: -16px;
   content: '';
 }
