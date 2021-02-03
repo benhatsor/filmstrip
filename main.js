@@ -404,8 +404,7 @@ document.querySelector( '.save' ).addEventListener( 'click', () => {
 	document.querySelector( '.prompt' ).innerHTML = '<div class="title"> <p>Export</p> <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="close" onclick="document.querySelector(\'.prompt-wrapper\').classList.toggle(\'open\')"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"></path></svg> </div> <a>Place this code somewhere in your website for a fully fledged animation.</a> <br> <span>HTML (or any element with class <span class="code name" style="padding: 2px">---</span>)</span> <div class="code" onclick="copy(this.innerText);this.classList.toggle(\'copy\')"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" class="copy"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" fill="currentColor"></path></svg>&lt;div class="<span class="name">---</span>"&gt;&lt;/div&gt;</div> <span>CSS</span> <div class="code export" onclick="copy(this.innerText);this.classList.toggle(\'copy\')"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" class="copy"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" fill="currentColor"></path></svg></div> </div>';
 
 	document.querySelector( '.prompt-wrapper' ).classList.add( 'open' );
-	document.querySelectorAll( '.name' ).
-	( name => {
+	document.querySelectorAll( '.name' ).( name => {
 
 		name.innerHTML = settings.name.replaceAll( ' ', '-' );
 
