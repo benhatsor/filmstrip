@@ -1,10 +1,3 @@
-/*
- *
- * ¦█¦ Filmstrip
- * barhatsor, MIT License
- *
- */
-
 var relWidth = 80/document.querySelector('.canvas').clientWidth;
 var relHeight = 80/document.querySelector('.canvas').clientHeight;
 
