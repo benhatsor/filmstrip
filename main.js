@@ -10,6 +10,11 @@ function moveElem(e) {
   window.onbeforeunload = function() {
     return 'Close window?';
   };
+  
+  if (e.type == 'touchmove') {
+    e.clientX = e.touches[0].clientX;
+    e.clientY = e.touches[0].clientY;
+  }
 
   var currentX = e.clientX - 55;
   var currentY = e.clientY - 105;
