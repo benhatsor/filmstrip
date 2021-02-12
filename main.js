@@ -280,26 +280,26 @@ var settings = {
 };
 
 var down = false;
-document.querySelector('.canvas').onmousedown = function(e) {
+document.querySelector('.canvas').addEventListener('mousedown', e => {
   down = true
-};
-document.querySelector('.canvas').onmouseup = function(e) {
+});
+document.querySelector('.canvas').addEventListener('mouseup', e => {
   down = false
-};
-document.querySelector('.canvas').onmousemove = function(e) {
+});
+document.querySelector('.canvas').addEventListener('mousemove', e => {
   if (down) {
     moveElem(e)
   }
-};
+});
 
-document.querySelector('.canvas').ontouchstart = function(e) {
+document.querySelector('.canvas').addEventListener('touchstart', e => {
   down = true
-};
-document.querySelector('.canvas').ontouchend = function(e) {
+});
+document.querySelector('.canvas').addEventListener('touchend', e => {
   down = false
-};
-document.querySelector('.canvas').ontouchmove = function(e) {
+});
+document.querySelector('.canvas').addEventListener('touchmove', e => {
   if (down) {
     moveElem(e)
   }
-};
+});
