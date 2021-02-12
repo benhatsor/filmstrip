@@ -8,6 +8,7 @@ html {
   font-family: 'Inter', sans-serif;
   scrollbar-color: #131c21 transparent;
   scrollbar-width: thin;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
