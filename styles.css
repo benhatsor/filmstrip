@@ -342,7 +342,7 @@ body {
   width: 80px;
   margin: 16px 13px;
   cursor: pointer;
-  transition: .2s ease, .2s .2s opacity;
+  transition: .2s ease;
 }
 
 .frame.open {
