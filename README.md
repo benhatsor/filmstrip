@@ -40,9 +40,9 @@ Creating new keyframes is easy. Just drag from one point to another.
 #### Help me improve it :seedling:
 
 Some stuff I want to add:
-- Custom images! (Other than the gray blob XD)
-- Settings! Customize animation duration and replay
-- Animate other properties! Such as height/width, color and more
+- Settings: customize animation duration, iteration count, etc.
+- Animate other properties: height, width, color, etc.
+- Custom images
 
 Just make a pull request if you feel like adding something from the list, or something else entirely :)  
 Please create a GitHub issue if there is something wrong or needs to be improved.
