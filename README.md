@@ -20,7 +20,7 @@
 
 ## Did you know you can create animations with just CSS?
 
-**Filmstrip** is an online editor that helps you with that.
+**Filmstrip** is an online editor to help you with that.
 
 With the power of **positioning** and **keyframing**, you'll get CSS code ready to use in your site.
 
