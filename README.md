@@ -37,7 +37,7 @@ Creating new keyframes is easy. Just drag from one point to another.
 
 ## Contributing
 
-#### Help me improve it :seedling:
+Help me improve it :seedling:
 
 Some stuff I want to add:
 - Settings: customize animation duration, iteration count, etc.
