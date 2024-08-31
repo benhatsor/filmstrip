@@ -49,6 +49,6 @@ Please create a GitHub issue if there is something wrong or needs to be improved
 
 ## License
 
-[MIT](https://opensource.org/licenses/mit-license.php)
+[MIT](/LICENSE)
 
 Copyright © [Ben Hatsor](https://www.berryscript.com)
