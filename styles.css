@@ -76,7 +76,11 @@ body {
   border: none;
   border-top: 1px solid rgb(241 241 242 / 36%);
   width: 100%;
-  transition: .5s ease;
+  transition: .2s ease;
+}
+
+.main .hidden hr {
+  width: 0;
 }
 
 .main .buttons {
