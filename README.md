@@ -18,7 +18,7 @@
   <!-- <img width="400" src="images/preview.gif"> -->
 </p>
 
-## Did you know that you can create animations with just CSS?
+## Did you know you can create animations with just CSS?
 
 **Filmstrip** is an online editor that helps you with that.
 
