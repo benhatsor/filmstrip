@@ -45,7 +45,7 @@ Some stuff I want to add:
 - Custom images
 
 Just make a pull request if you feel like adding something from the list, or something else entirely :)  
-Please create a GitHub issue if there is something wrong or needs to be improved.
+Please create a GitHub issue if something is wrong or needs to be improved.
 
 ## License
 
