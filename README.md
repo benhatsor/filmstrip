@@ -18,13 +18,13 @@
   <!-- <img width="400" src="images/preview.gif"> -->
 </p>
 
-## Did you know that you can create animation using just CSS?
+## Did you know that you can create animations with just CSS?
 
-**Filmstrip** is an online editor that helps you with that task.
+**Filmstrip** is an online editor that helps you with that.
 
-Combining the power of both **positioning** and **keyframes** CSS properties, you will get CSS code ready to use in your site.
+With the power of **positioning** and **keyframing**, you'll get CSS code ready to use in your site.
 
-Furthermore, you can place the exported animation **anywhere** and add on to **any element**.
+You'll be able to place the exported animation **anywhere** and add it on to **any element**.
 
 <p align="center">
   <img width="600" src="images/scrn2.png">
@@ -50,4 +50,5 @@ Please create a GitHub issue if there is something wrong or needs to be improved
 ## License
 
 [MIT](https://opensource.org/licenses/mit-license.php)
-Copyright © 2020 Ben Hatsor (<a href="https://www.berryscript.com">@benhatsor</a>)
+
+Copyright © [Ben Hatsor](https://www.berryscript.com)
