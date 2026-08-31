@@ -5,7 +5,7 @@
   </h3>
 </p>
 <p align="center">
-  <a target='_blank' href='https://github.com/benhatsor/filmstrip/releases'><img src='https://img.shields.io/github/v/release/benhatsor/filmstrip?color=green&include_prereleases'/></a>
+  <a target='_blank' href='https://github.com/barhatsor/filmstrip/releases'><img src='https://img.shields.io/github/v/release/barhatsor/filmstrip?color=green&include_prereleases'/></a>
   <a target='_blank' href='./LICENSE'><img src='https://img.shields.io/badge/license-MIT-blue.svg'/></a>
 </p>
 
@@ -51,4 +51,4 @@ Please create a GitHub issue if something is wrong or needs to be improved.
 
 [MIT](/LICENSE)
 
-Copyright © [Ben Hatsor](https://www.berryscript.com)
+Copyright © [Bar Hatsor](https://www.berryscript.com)
