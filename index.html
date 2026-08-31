@@ -149,6 +149,7 @@ const repo = await repoResp.json();
 
 const starCount = repo.stargazers_count;
 githubCountEl.textContent = starCount;
+githubCountEl.classList.add('loaded');
 </script>
 </body>
 </html>

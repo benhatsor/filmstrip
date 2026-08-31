@@ -624,6 +624,10 @@ body {
   font-size: 12px;
 }
 
+.github .count:not(.loaded) {
+  display: none;
+}
+
 .github .count::before {
   top: 50%;
   left: -5px;
